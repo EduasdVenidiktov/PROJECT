@@ -1,0 +1,22 @@
+.container {
+  min-height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customText {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-shadow: 2px 2px #ff0000;
+  background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+body {
+  background: #a8dbf8;
+}
+.gif {
+  margin: 0 auto;
+}

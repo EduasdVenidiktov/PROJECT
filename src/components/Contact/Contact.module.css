@@ -1,0 +1,31 @@
+.contactContainer {
+  padding: 20px;
+  border-radius: 4px;
+  border: 2px solid gray;
+
+  background-color: aqua;
+  justify-content: space-between; /* Розташування елементів зліва і справа */
+  align-items: center; /* Вирівнювання елементів по вертикалі */
+}
+
+.contactContainer:hover {
+  border: 3px solid brown;
+  scale: 1.02;
+}
+
+.buttonStack {
+  margin-top: 20px;
+}
+.infoBlock {
+  display: flex;
+  gap: 20px;
+  align-items: center; /* Вирівнювання елементів по вертикалі */
+}
+
+.infoLink {
+  color: black;
+}
+.infoLink:hover {
+  color: blue;
+  scale: 1.04;
+}
